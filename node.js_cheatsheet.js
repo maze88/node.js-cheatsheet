@@ -1,7 +1,8 @@
 /*
 Node.js example/cheatsheet by Michael Zeevi.
 Twitter: @maze_52
-Githueb: @maze88
+Github: @maze88
+Homepage: https://www.maze88.xyz
 
 This cheatsheet consists of functional Node.js expressions that demonstrate basic usage.
 It is intended for entry level users, for example learning Node.js as their second programming language.
