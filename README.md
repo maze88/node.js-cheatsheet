@@ -9,6 +9,6 @@
 
 This cheatsheet consists of Node.js expressions that demonstrate basic usage.
 It is intended for (and made by) entry level users, for example learning Node.js as their second programming language - like myself!
-All code here is executable except for code requiring external modules (see '/* Modules */' section, in code).
+All code here is executable except for code requiring external modules (see `/* Modules */` section, in code).
 
 ---
