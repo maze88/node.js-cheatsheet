@@ -6,7 +6,7 @@ Homepage: https://www.maze88.xyz
 
 This cheatsheet consists of functional Node.js expressions that demonstrate basic usage.
 It is intended for entry level users, for example learning Node.js as their second programming language.
-All code here is executable except for code requiring external modules (see '// Modules', below).
+All code here is executable except for code requiring external modules (see '/* Packages */', below).
 */
 
 /* Variables */
@@ -57,10 +57,10 @@ All code here is executable except for code requiring external modules (see '// 
   console.log(fizz(15));
 
 
-/* Modules */
-  throw new Error('Node.js cheatsheet demo has finished running early because dependancies (modules) may not be installed. See /* Modules */ in source for more info.');
-  // In order to use external modules, first they must be installed using the Node Package Manager (`sudo apt install npm`).
-  // Module installation via CLI: `npm install --save moduleName` where 'moduleName' is a module name such as 'twit' or 'sleep'.
+/* Packages */
+  throw new Error('Node.js cheatsheet demo has finished running early because dependancies (packages) may not be installed. See /* Packages */ in source for more info.');
+  // In order to use external packages, first they must be installed using the Node Package Manager (`sudo apt install npm`).
+  // Package installation via CLI: `npm install --save packageName` where 'packageName' is a package to install such as 'twit' or 'sleep'.
 
   // Sleep for 3 seconds (in three different ways):
   var sleep = require('sleep');
