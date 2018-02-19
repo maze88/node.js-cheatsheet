@@ -6,8 +6,12 @@ Homepage: https://www.maze88.xyz
 
 This cheatsheet consists of functional Node.js expressions that demonstrate basic usage.
 It is intended for entry level users, for example learning Node.js as their second programming language.
-All code here is executable except for code requiring external modules (see '/* Packages */', below).
+All code here is executable except for code requiring external modules (see '/* Packages *\/', below).
 */
+
+/* Printing */
+  // Print to console:
+  console.log('Running Node.js example/cheat-sheet demo.\n');
 
 /* Variables */
   // Number, boolean, array.
@@ -15,14 +19,10 @@ All code here is executable except for code requiring external modules (see '/* 
   var spicy = false;
   var usernames = ['maze', 'work', 'test'];
 
-/* Printing */
-  // Print to console:
-  console.log(usernames, y);
-
-/* Logic */
+/* Loops */
   // Simplified for-loop:
-  for(name in usernames) {
-    console.log(name);
+  for(i in usernames) {
+    console.log(usernames[i]);
   }
 
   // Standard for-loop & powers:
@@ -31,6 +31,7 @@ All code here is executable except for code requiring external modules (see '/* 
     console.log(x);
   }
 
+/* Logic */
   // Conditional statement:
   if(0 < -1 || false || 1) {
     console.log(Math.random());
@@ -56,9 +57,12 @@ All code here is executable except for code requiring external modules (see '/* 
   console.log(fizz(10));
   console.log(fizz(15));
 
+/* Process */
+  // Exit the running script:
+  console.log('\nNode.js cheatsheet demo has finished running early because dependancies (packages) may not be installed.\nFor more info: See /* Packages */ in source code file', __filename);
+  process.exit();
 
 /* Packages */
-  throw new Error('Node.js cheatsheet demo has finished running early because dependancies (packages) may not be installed. See /* Packages */ in source for more info.');
   // In order to use external packages, first they must be installed using the Node Package Manager (`sudo apt install npm`).
   // Package installation via CLI: `npm install --save packageName` where 'packageName' is a package to install such as 'twit' or 'sleep'.
 
